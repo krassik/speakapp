@@ -13,6 +13,7 @@
 		929597D11A32383A00E1AE04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929597D01A32383A00E1AE04 /* Images.xcassets */; };
 		929597D41A32383A00E1AE04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929597D21A32383A00E1AE04 /* LaunchScreen.xib */; };
 		929597E01A32383A00E1AE04 /* Speak_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929597DF1A32383A00E1AE04 /* Speak_AppTests.swift */; };
+		929597EA1A326B7C00E1AE04 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929597E91A326B7C00E1AE04 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		929597D91A32383A00E1AE04 /* Speak AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speak AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929597DE1A32383A00E1AE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929597DF1A32383A00E1AE04 /* Speak_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speak_AppTests.swift; sourceTree = "<group>"; };
+		929597E91A326B7C00E1AE04 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				929597C91A32383A00E1AE04 /* AppDelegate.swift */,
 				929597CB1A32383A00E1AE04 /* ViewController.swift */,
 				929597CD1A32383A00E1AE04 /* Main.storyboard */,
+				929597E91A326B7C00E1AE04 /* PlaySoundsViewController.swift */,
 				929597D01A32383A00E1AE04 /* Images.xcassets */,
 				929597D21A32383A00E1AE04 /* LaunchScreen.xib */,
 				929597C71A32383A00E1AE04 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929597CC1A32383A00E1AE04 /* ViewController.swift in Sources */,
+				929597EA1A326B7C00E1AE04 /* PlaySoundsViewController.swift in Sources */,
 				929597CA1A32383A00E1AE04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
