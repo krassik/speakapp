@@ -25,16 +25,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="eEX-u9-LA0" secondAttribute="centerX" id="GM8-07-lRD"/>
-                            <constraint firstAttribute="centerY" secondItem="eEX-u9-LA0" secondAttribute="centerY" id="gvb-7d-aAb"/>
+                            <constraint firstAttribute="centerX" secondItem="eEX-u9-LA0" secondAttribute="centerX" id="Nva-2e-ZDa"/>
+                            <constraint firstAttribute="centerY" secondItem="eEX-u9-LA0" secondAttribute="centerY" id="vbA-cc-Nmj"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="eEX-u9-LA0"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="GM8-07-lRD"/>
-                                <exclude reference="gvb-7d-aAb"/>
+                                <exclude reference="Nva-2e-ZDa"/>
+                                <exclude reference="vbA-cc-Nmj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -42,8 +42,8 @@
                                 <include reference="eEX-u9-LA0"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="GM8-07-lRD"/>
-                                <include reference="gvb-7d-aAb"/>
+                                <include reference="Nva-2e-ZDa"/>
+                                <include reference="vbA-cc-Nmj"/>
                             </mask>
                         </variation>
                     </view>
