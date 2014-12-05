@@ -30,14 +30,14 @@
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                 <color key="textColor" red="0.14509803921568626" green="0.28235294117647058" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="168" y="390" width="66" height="17"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="UsR-LE-Sbu" secondAttribute="centerY" constant="-98.5" id="K5Z-Hy-Wlr"/>
                             <constraint firstAttribute="centerX" secondItem="eEX-u9-LA0" secondAttribute="centerX" id="Nva-2e-ZDa"/>
+                            <constraint firstItem="UsR-LE-Sbu" firstAttribute="top" secondItem="eEX-u9-LA0" secondAttribute="bottom" constant="40" id="RHR-o5-RWS"/>
+                            <constraint firstAttribute="centerX" secondItem="UsR-LE-Sbu" secondAttribute="centerX" constant="-1" id="Ylh-zV-ncp"/>
                             <constraint firstAttribute="centerY" secondItem="eEX-u9-LA0" secondAttribute="centerY" id="vbA-cc-Nmj"/>
                         </constraints>
                         <variation key="default">
@@ -48,6 +48,9 @@
                             <mask key="constraints">
                                 <exclude reference="Nva-2e-ZDa"/>
                                 <exclude reference="vbA-cc-Nmj"/>
+                                <exclude reference="K5Z-Hy-Wlr"/>
+                                <exclude reference="RHR-o5-RWS"/>
+                                <exclude reference="Ylh-zV-ncp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -58,6 +61,9 @@
                             <mask key="constraints">
                                 <include reference="Nva-2e-ZDa"/>
                                 <include reference="vbA-cc-Nmj"/>
+                                <include reference="K5Z-Hy-Wlr"/>
+                                <include reference="RHR-o5-RWS"/>
+                                <include reference="Ylh-zV-ncp"/>
                             </mask>
                         </variation>
                     </view>
