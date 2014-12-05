@@ -21,20 +21,29 @@
                                 <state key="normal" title="Record Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="150" y="285" width="100" height="30"/>
-                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="eEX-u9-LA0" secondAttribute="centerX" id="GM8-07-lRD"/>
+                            <constraint firstAttribute="centerY" secondItem="eEX-u9-LA0" secondAttribute="centerY" id="gvb-7d-aAb"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="eEX-u9-LA0"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="GM8-07-lRD"/>
+                                <exclude reference="gvb-7d-aAb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="eEX-u9-LA0"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="GM8-07-lRD"/>
+                                <include reference="gvb-7d-aAb"/>
                             </mask>
                         </variation>
                     </view>
