@@ -25,7 +25,7 @@
                                     <action selector="recordAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1iF-hM-CGW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="listening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsR-LE-Sbu">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="listening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsR-LE-Sbu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                 <color key="textColor" red="0.14509803921568626" green="0.28235294117647058" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,11 +46,11 @@
                                 <exclude reference="UsR-LE-Sbu"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Nva-2e-ZDa"/>
-                                <exclude reference="vbA-cc-Nmj"/>
                                 <exclude reference="K5Z-Hy-Wlr"/>
                                 <exclude reference="RHR-o5-RWS"/>
                                 <exclude reference="Ylh-zV-ncp"/>
+                                <exclude reference="Nva-2e-ZDa"/>
+                                <exclude reference="vbA-cc-Nmj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -59,11 +59,11 @@
                                 <include reference="UsR-LE-Sbu"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Nva-2e-ZDa"/>
-                                <include reference="vbA-cc-Nmj"/>
                                 <include reference="K5Z-Hy-Wlr"/>
                                 <include reference="RHR-o5-RWS"/>
                                 <include reference="Ylh-zV-ncp"/>
+                                <include reference="Nva-2e-ZDa"/>
+                                <include reference="vbA-cc-Nmj"/>
                             </mask>
                         </variation>
                     </view>
