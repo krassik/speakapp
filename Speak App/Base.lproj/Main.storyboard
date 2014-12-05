@@ -49,6 +49,7 @@
                             <constraint firstAttribute="centerX" secondItem="95C-JM-XFf" secondAttribute="centerX" id="hIt-l0-dhz"/>
                             <constraint firstAttribute="centerY" secondItem="95C-JM-XFf" secondAttribute="centerY" constant="-221" id="iPa-TC-TQZ"/>
                             <constraint firstAttribute="centerY" secondItem="UsR-LE-Sbu" secondAttribute="centerY" constant="-111.5" id="tjC-u0-YLZ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="95C-JM-XFf" secondAttribute="bottom" constant="29" id="trw-ml-vzW"/>
                             <constraint firstAttribute="centerY" secondItem="eEX-u9-LA0" secondAttribute="centerY" id="vbA-cc-Nmj"/>
                         </constraints>
                         <variation key="default">
@@ -64,6 +65,7 @@
                                 <exclude reference="tjC-u0-YLZ"/>
                                 <exclude reference="hIt-l0-dhz"/>
                                 <exclude reference="iPa-TC-TQZ"/>
+                                <exclude reference="trw-ml-vzW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +81,7 @@
                                 <include reference="tjC-u0-YLZ"/>
                                 <include reference="hIt-l0-dhz"/>
                                 <include reference="iPa-TC-TQZ"/>
+                                <include reference="trw-ml-vzW"/>
                             </mask>
                         </variation>
                     </view>
