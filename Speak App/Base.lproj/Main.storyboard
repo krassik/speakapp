@@ -92,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-460.5" y="232"/>
+            <point key="canvasLocation" x="-454.5" y="232"/>
         </scene>
         <!--Play Sounds View Controller-->
         <scene sceneID="Css-4l-E3V">
@@ -142,6 +142,15 @@
                                     <action selector="playChipmunkAudio:" destination="prQ-Qs-pI5" eventType="touchUpInside" id="L0k-6O-l7m"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgM-X8-0AZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="vader">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playVaderAudio:" destination="prQ-Qs-pI5" eventType="touchUpInside" id="2MJ-ml-P0g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -154,6 +163,8 @@
                             <constraint firstAttribute="trailingMargin" secondItem="aRi-4e-MiJ" secondAttribute="trailing" constant="28" id="SYS-Qb-5PO"/>
                             <constraint firstAttribute="centerX" secondItem="rck-70-2wh" secondAttribute="centerX" id="aCT-eL-DCN"/>
                             <constraint firstItem="c1w-W0-7Nm" firstAttribute="top" secondItem="Fyj-Yb-xxh" secondAttribute="bottom" constant="44" id="rEm-SO-zVm"/>
+                            <constraint firstItem="MgM-X8-0AZ" firstAttribute="centerX" secondItem="aRi-4e-MiJ" secondAttribute="centerX" id="rxL-Ll-WCZ"/>
+                            <constraint firstItem="MgM-X8-0AZ" firstAttribute="centerY" secondItem="fsK-7s-1A9" secondAttribute="centerY" id="sf5-B2-qTi"/>
                             <constraint firstAttribute="centerY" secondItem="rck-70-2wh" secondAttribute="centerY" constant="-180" id="uG2-nv-ewL"/>
                         </constraints>
                         <variation key="default">
@@ -162,6 +173,7 @@
                                 <exclude reference="aRi-4e-MiJ"/>
                                 <exclude reference="rck-70-2wh"/>
                                 <exclude reference="fsK-7s-1A9"/>
+                                <exclude reference="MgM-X8-0AZ"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="8oB-9x-fV4"/>
@@ -170,6 +182,8 @@
                                 <exclude reference="SYS-Qb-5PO"/>
                                 <exclude reference="2hh-jR-JFE"/>
                                 <exclude reference="Rz4-0p-X4r"/>
+                                <exclude reference="rxL-Ll-WCZ"/>
+                                <exclude reference="sf5-B2-qTi"/>
                                 <exclude reference="CQ0-Ro-NvJ"/>
                                 <exclude reference="E7y-6m-AdZ"/>
                                 <exclude reference="aCT-eL-DCN"/>
@@ -182,6 +196,7 @@
                                 <include reference="aRi-4e-MiJ"/>
                                 <include reference="rck-70-2wh"/>
                                 <include reference="fsK-7s-1A9"/>
+                                <include reference="MgM-X8-0AZ"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="8oB-9x-fV4"/>
@@ -190,6 +205,8 @@
                                 <include reference="SYS-Qb-5PO"/>
                                 <include reference="2hh-jR-JFE"/>
                                 <include reference="Rz4-0p-X4r"/>
+                                <include reference="rxL-Ll-WCZ"/>
+                                <include reference="sf5-B2-qTi"/>
                                 <include reference="CQ0-Ro-NvJ"/>
                                 <include reference="E7y-6m-AdZ"/>
                                 <include reference="aCT-eL-DCN"/>
@@ -227,5 +244,6 @@
         <image name="microphone" width="100" height="100"/>
         <image name="slow" width="100" height="100"/>
         <image name="stop" width="100" height="100"/>
+        <image name="vader" width="100" height="100"/>
     </resources>
 </document>
