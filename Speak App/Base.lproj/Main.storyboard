@@ -92,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-193.5" y="232"/>
+            <point key="canvasLocation" x="-460.5" y="232"/>
         </scene>
         <!--Play Sounds View Controller-->
         <scene sceneID="Css-4l-E3V">
@@ -133,13 +133,24 @@
                                     <action selector="stopAudio:" destination="prQ-Qs-pI5" eventType="touchUpInside" id="lvE-Jn-TvW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsK-7s-1A9">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="chipmunk">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playChipmunkAudio:" destination="prQ-Qs-pI5" eventType="touchUpInside" id="L0k-6O-l7m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="fsK-7s-1A9" firstAttribute="top" secondItem="c1w-W0-7Nm" secondAttribute="bottom" constant="75" id="2hh-jR-JFE"/>
                             <constraint firstItem="c1w-W0-7Nm" firstAttribute="leading" secondItem="gdD-w4-DD8" secondAttribute="leadingMargin" constant="26" id="8oB-9x-fV4"/>
                             <constraint firstAttribute="centerX" secondItem="rck-70-2wh" secondAttribute="centerX" id="CQ0-Ro-NvJ"/>
                             <constraint firstAttribute="centerY" secondItem="rck-70-2wh" secondAttribute="centerY" constant="-180" id="E7y-6m-AdZ"/>
                             <constraint firstItem="aRi-4e-MiJ" firstAttribute="top" secondItem="Fyj-Yb-xxh" secondAttribute="bottom" constant="44" id="Lmz-Dz-H0b"/>
+                            <constraint firstItem="fsK-7s-1A9" firstAttribute="leading" secondItem="gdD-w4-DD8" secondAttribute="leadingMargin" constant="26" id="Rz4-0p-X4r"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aRi-4e-MiJ" secondAttribute="trailing" constant="28" id="SYS-Qb-5PO"/>
                             <constraint firstAttribute="centerX" secondItem="rck-70-2wh" secondAttribute="centerX" id="aCT-eL-DCN"/>
                             <constraint firstItem="c1w-W0-7Nm" firstAttribute="top" secondItem="Fyj-Yb-xxh" secondAttribute="bottom" constant="44" id="rEm-SO-zVm"/>
@@ -150,12 +161,15 @@
                                 <exclude reference="c1w-W0-7Nm"/>
                                 <exclude reference="aRi-4e-MiJ"/>
                                 <exclude reference="rck-70-2wh"/>
+                                <exclude reference="fsK-7s-1A9"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="8oB-9x-fV4"/>
                                 <exclude reference="rEm-SO-zVm"/>
                                 <exclude reference="Lmz-Dz-H0b"/>
                                 <exclude reference="SYS-Qb-5PO"/>
+                                <exclude reference="2hh-jR-JFE"/>
+                                <exclude reference="Rz4-0p-X4r"/>
                                 <exclude reference="CQ0-Ro-NvJ"/>
                                 <exclude reference="E7y-6m-AdZ"/>
                                 <exclude reference="aCT-eL-DCN"/>
@@ -167,12 +181,15 @@
                                 <include reference="c1w-W0-7Nm"/>
                                 <include reference="aRi-4e-MiJ"/>
                                 <include reference="rck-70-2wh"/>
+                                <include reference="fsK-7s-1A9"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="8oB-9x-fV4"/>
                                 <include reference="rEm-SO-zVm"/>
                                 <include reference="Lmz-Dz-H0b"/>
                                 <include reference="SYS-Qb-5PO"/>
+                                <include reference="2hh-jR-JFE"/>
+                                <include reference="Rz4-0p-X4r"/>
                                 <include reference="CQ0-Ro-NvJ"/>
                                 <include reference="E7y-6m-AdZ"/>
                                 <include reference="aCT-eL-DCN"/>
@@ -201,10 +218,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdp-3p-4Gj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1002" y="232"/>
+            <point key="canvasLocation" x="-1380" y="232"/>
         </scene>
     </scenes>
     <resources>
+        <image name="chipmunk" width="100" height="100"/>
         <image name="fast" width="100" height="100"/>
         <image name="microphone" width="100" height="100"/>
         <image name="slow" width="100" height="100"/>
