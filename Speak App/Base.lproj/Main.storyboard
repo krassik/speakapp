@@ -115,28 +115,45 @@
                                     <action selector="playSlowAudio:" destination="prQ-Qs-pI5" eventType="touchUpInside" id="muM-46-Xkj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRi-4e-MiJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="fast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playFastAudio:" destination="prQ-Qs-pI5" eventType="touchUpInside" id="Fnv-dX-PbQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="c1w-W0-7Nm" firstAttribute="leading" secondItem="gdD-w4-DD8" secondAttribute="leadingMargin" constant="26" id="8oB-9x-fV4"/>
+                            <constraint firstItem="aRi-4e-MiJ" firstAttribute="top" secondItem="Fyj-Yb-xxh" secondAttribute="bottom" constant="44" id="Lmz-Dz-H0b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aRi-4e-MiJ" secondAttribute="trailing" constant="28" id="SYS-Qb-5PO"/>
                             <constraint firstItem="c1w-W0-7Nm" firstAttribute="top" secondItem="Fyj-Yb-xxh" secondAttribute="bottom" constant="44" id="rEm-SO-zVm"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="c1w-W0-7Nm"/>
+                                <exclude reference="aRi-4e-MiJ"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="8oB-9x-fV4"/>
                                 <exclude reference="rEm-SO-zVm"/>
+                                <exclude reference="Lmz-Dz-H0b"/>
+                                <exclude reference="SYS-Qb-5PO"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="c1w-W0-7Nm"/>
+                                <include reference="aRi-4e-MiJ"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="8oB-9x-fV4"/>
                                 <include reference="rEm-SO-zVm"/>
+                                <include reference="Lmz-Dz-H0b"/>
+                                <include reference="SYS-Qb-5PO"/>
                             </mask>
                         </variation>
                     </view>
@@ -165,6 +182,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="fast" width="100" height="100"/>
         <image name="microphone" width="100" height="100"/>
         <image name="slow" width="100" height="100"/>
         <image name="stop" width="100" height="100"/>
