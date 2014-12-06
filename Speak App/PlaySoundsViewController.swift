@@ -18,13 +18,16 @@ class PlaySoundsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        if var filePath = NSBundle.mainBundle().pathForResource("sample", ofType: "mp3") {
-            var filePathURL = NSURL.fileURLWithPath(filePath)
-            audioPlayer = AVAudioPlayer(contentsOfURL: filePathURL, error: nil)
-            audioPlayer.enableRate = true
-        } else {
-            println("the filePath is empty")
-        }
+//        if var filePath = NSBundle.mainBundle().pathForResource("sample", ofType: "mp3") {
+//            var filePathURL = NSURL.fileURLWithPath(filePath)
+//
+//        } else {
+//            println("the filePath is empty")
+//        }
+        
+        audioPlayer = AVAudioPlayer(contentsOfURL: receivedAudio.filePathUrl, error: nil)
+        audioPlayer.enableRate = true
+        
     }
 
     override func didReceiveMemoryWarning() {
